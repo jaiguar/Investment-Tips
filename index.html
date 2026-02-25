@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>InvestWise US — Stock Tips & Investing Education</title>
+  <meta name="description" content="US-focused investing education, stock market tips, and risk-aware insights. Not financial advice." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="InvestWise US Home">
+        <span class="logo" aria-hidden="true">IW</span>
+        <span class="brand-text">InvestWise <span class="brand-us">US</span></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">
+        <span class="sr-only">Open menu</span>
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <div class="links" id="navLinks">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="discrimination.html">Discrimination</a>
+        <a class="cta" href="#newsletter">Get Updates</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="pill">US Market Focus • Stocks • ETFs • Risk-aware Education</p>
+          <h1>Smarter investing starts with better info — not hype.</h1>
+          <p class="lead">
+            Learn how US stocks work, build strategies, and explore tips with transparent risk notes.
+            We’re education-first: no “guaranteed returns” vibes.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#tips">Explore Tips</a>
+            <a class="btn ghost" href="#disclaimer">Read Disclaimer</a>
+          </div>
+
+          <div class="stats" role="list" aria-label="Highlights">
+            <div class="stat" role="listitem">
+              <div class="stat-num">US-First</div>
+              <div class="stat-label">Stocks & ETFs</div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat-num">Risk Notes</div>
+              <div class="stat-label">Every idea includes “what can go wrong”</div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat-num">Simple</div>
+              <div class="stat-label">Beginner-friendly</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Quick market checklist">
+          <h2 class="card-title">Daily US Market Checklist</h2>
+          <ul class="checklist">
+            <li><span class="dot"></span> Trend: market regime (risk-on vs risk-off)</li>
+            <li><span class="dot"></span> Macro: CPI, Fed minutes, jobs report</li>
+            <li><span class="dot"></span> Earnings: guidance + revenue growth</li>
+            <li><span class="dot"></span> Risk: position size + stop plan</li>
+            <li><span class="dot"></span> Time horizon: swing vs long-term</li>
+          </ul>
+          <a class="btn mini" href="#newsletter">Get weekly recap</a>
+          <p class="tiny muted">Education only. Not investment advice.</p>
+        </div>
+      </div>
+
+      <div class="glow" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="tips">
+      <div class="container">
+        <div class="section-head">
+          <h2>US Stock Tips (Education-based)</h2>
+          <p class="muted">Short, practical ideas you can apply — with risk context included.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <h3>1) Don’t marry a ticker</h3>
+            <p>Stocks move on expectations. Recheck thesis after earnings, guidance, or major news.</p>
+            <div class="tag-row">
+              <span class="tag">Mindset</span><span class="tag">Earnings</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>2) Favor quality + cash flow</h3>
+            <p>For long-term, prioritize strong margins, consistent revenue growth, and healthy balance sheets.</p>
+            <div class="tag-row">
+              <span class="tag">Fundamentals</span><span class="tag">Long-term</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>3) ETFs for smoother learning</h3>
+            <p>If you’re new, broad ETFs can reduce single-company risk while you build skills.</p>
+            <div class="tag-row">
+              <span class="tag">ETFs</span><span class="tag">Beginner</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>4) Position sizing is the real “secret”</h3>
+            <p>Even a great pick can hurt if size is too big. Use a max risk per trade rule.</p>
+            <div class="tag-row">
+              <span class="tag">Risk</span><span class="tag">Rules</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>5) Avoid “news FOMO” entries</h3>
+            <p>After big headlines, price is often stretched. Wait for pullbacks or confirmation.</p>
+            <div class="tag-row">
+              <span class="tag">Discipline</span><span class="tag">Momentum</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>6) Write a plan before you buy</h3>
+            <p>Entry, exit, time horizon, and what invalidates your thesis. No plan = vibes.</p>
+            <div class="tag-row">
+              <span class="tag">Process</span><span class="tag">Journal</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="newsletter">
+      <div class="container">
+        <div class="newsletter">
+          <div>
+            <h2>Weekly US Market Notes</h2>
+            <p class="muted">No spam. Just a clean recap + educational tips.</p>
+          </div>
+
+          <form class="form" id="newsletterForm">
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+            <button class="btn primary" type="submit">Subscribe</button>
+            <p class="tiny muted">By subscribing, you agree to our <a href="privacy.html">Privacy Policy</a>.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="disclaimer">
+      <div class="container">
+        <div class="disclaimer">
+          <h2>Important Disclaimer</h2>
+          <p>
+            InvestWise US provides <strong>educational content</strong> only and does not provide investment, legal, or tax advice.
+            Investing involves risk, including possible loss of principal. Past performance does not guarantee future results.
+          </p>
+          <p class="muted tiny">
+            If you need personal advice, consider speaking with a licensed financial professional in the United States.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" aria-label="Footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand foot">
+          <span class="logo" aria-hidden="true">IW</span>
+          <span class="brand-text">InvestWise <span class="brand-us">US</span></span>
+        </div>
+        <p class="muted tiny">Education-first investing tips for US stocks & ETFs. Not financial advice.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="discrimination.html">Non-Discrimination</a>
+      </div>
+
+      <div class="tiny muted">
+        © <span id="year"></span> InvestWise US. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
