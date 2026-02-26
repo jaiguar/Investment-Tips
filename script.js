@@ -1,4 +1,4 @@
-const navToggle = document.getElementById("navToggle");
+// const navToggle = document.getElementById("navToggle");
 const navLinks = document.getElementById("navLinks");
 const year = document.getElementById("year");
 
